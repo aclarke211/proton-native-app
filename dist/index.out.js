@@ -22,7 +22,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "9d76971a1673c7a2e908";
+/******/ 	var hotCurrentHash = "80d38c395728e0b49d24";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -910,14 +910,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-proton_native__WEBPACK_IMPORTED_MODULE_1__["AppRegistry"].registerComponent("example", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_app__WEBPACK_IMPORTED_MODULE_2__["default"], null)); // ================================================================================
+proton_native__WEBPACK_IMPORTED_MODULE_1__["AppRegistry"].registerComponent("App", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_app__WEBPACK_IMPORTED_MODULE_2__["default"], null)); // ================================================================================
 
 /* Hot Reloading - on run in dev build */
 
 if (true) {
   module.hot.accept([/*! ./app */ "./app.js"], function(__WEBPACK_OUTDATED_DEPENDENCIES__) { /* harmony import */ _app__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app */ "./app.js");
 (function () {
-    var app = __webpack_require__(/*! ./app */ "./app.js")["default"];
+    var app = __webpack_require__(/*! ./app */ "./app.js")["app"];
 
     proton_native__WEBPACK_IMPORTED_MODULE_1__["AppRegistry"].updateProxy(app);
   })(__WEBPACK_OUTDATED_DEPENDENCIES__); }.bind(this));
