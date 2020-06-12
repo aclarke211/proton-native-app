@@ -22,7 +22,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "813e25bcdb1a9c58b811";
+/******/ 	var hotCurrentHash = "9d76971a1673c7a2e908";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -880,7 +880,7 @@ var Example = /*#__PURE__*/function (_Component) {
         style: {
           width: 300,
           height: 300,
-          backgroundColor: "blue"
+          backgroundColor: "green"
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_test_TestComponent_js__WEBPACK_IMPORTED_MODULE_2__["default"], null)));
     }
@@ -1125,12 +1125,12 @@ var TestComponent = function TestComponent() {
       backgroundColor: "blue",
       flex: 0.3
     }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(proton_native__WEBPACK_IMPORTED_MODULE_1__["View"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(proton_native__WEBPACK_IMPORTED_MODULE_1__["Text"], null, "View component (or container) 1")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(proton_native__WEBPACK_IMPORTED_MODULE_1__["View"], {
     style: {
       backgroundColor: "red",
       flex: 0.5
     }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(proton_native__WEBPACK_IMPORTED_MODULE_1__["Text"], null, "Hello World!"));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(proton_native__WEBPACK_IMPORTED_MODULE_1__["Text"], null, "View component 2")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(proton_native__WEBPACK_IMPORTED_MODULE_1__["Text"], null, "Hello World!"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (TestComponent);

@@ -10,7 +10,7 @@ export default class Example extends Component {
     return (
       <App>
         {/* you must always include App around everything */}
-        <Window style={{ width: 300, height: 300, backgroundColor: "blue" }}>
+        <Window style={{ width: 300, height: 300, backgroundColor: "green" }}>
           <TestComponent />
         </Window>
       </App>

@@ -10,8 +10,12 @@ const TestComponent = () => {
         padding: 20
       }}
     >
-      <View style={{ backgroundColor: "blue", flex: 0.3 }} />
-      <View style={{ backgroundColor: "red", flex: 0.5 }} />
+      <View style={{ backgroundColor: "blue", flex: 0.3 }}>
+        <Text>View component (or container) 1</Text>
+      </View>
+      <View style={{ backgroundColor: "red", flex: 0.5 }}>
+        <Text>View component 2</Text>
+      </View>
       <Text>Hello World!</Text>
     </View>
   );
